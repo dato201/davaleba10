@@ -1,0 +1,38 @@
+@media (max-width: 844px) {
+    .text_div_section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .h2_section2{
+        text-align: center;
+    }
+    .p_section2{
+        text-align: center;
+    }
+    /* section3 */
+    .section3{
+        display: flex;
+        flex-direction: column;
+    }
+    .p_section3{
+        text-align: center;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 590px) {
+    .header_nav{
+        display: none;
+    }
+    .button_header{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .footer_div {
+        display: flex;
+        align-items: center;
+    }
+}
